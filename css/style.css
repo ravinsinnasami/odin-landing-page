@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 
@@ -80,9 +81,6 @@ button {
     font-weight: bold;
 }
 
-.button button {
-    border: 1px white solid;
-}
 
 .mainbutton {
     margin-bottom: 15px;
@@ -137,11 +135,20 @@ button {
 
 /* quotes section */
 
+.quotescontainer {
+    background-color: #e5e7eb;
+}
+
+.quoteslimit {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .quotes {
     display: flex;
     flex-direction: column;
-    background-color: #e5e7eb;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .main {
@@ -185,10 +192,16 @@ button {
     align-self: center;
 }
 
+.button button {
+    border: 2px white solid;
+}
+
 #topaction {
     font-weight: bold;
+    font-size: 20px;
     margin-bottom: 5px;
 }
+
 
 #bottomaction {
     margin-bottom: 10px;
